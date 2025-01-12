@@ -37,11 +37,6 @@ exports.checkStatus = asyncHandler(async (req,res,next)=>{
   });
 });
 
-//webhook implementation ...
-exports.updateStatusByWebhook = asyncHandler(async (req,res,next)=>{
-
-});
-
 
 //update status manually.......
 exports.updateStatusManually = asyncHandler(async(req,res,next)=>{
